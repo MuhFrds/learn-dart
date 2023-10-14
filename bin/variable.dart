@@ -33,4 +33,14 @@ void main() {
 
   print(array1);
   print(array2);
+
+  // late digunakan ketika ingin mendeklarasikan variable saat dipanggil
+  late var value = getValue();
+  print('Variable sudah dibuat');
+  print(value);
+}
+
+String getValue() {
+  print('getValue() dipanggil');
+  return 'Muhammad Firdaus';
 }
