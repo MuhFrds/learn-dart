@@ -3,7 +3,7 @@ void main() {
   var nilaiAbsen = 80;
 
   var apakahNilaiAkhirBagus = nilaiAkhir >= 75;
-  var apakahNilaiAbsenBagus = nilaiAkhir >= 75;
+  var apakahNilaiAbsenBagus = nilaiAbsen >= 75;
 
   print(apakahNilaiAkhirBagus);
   print(apakahNilaiAbsenBagus);
