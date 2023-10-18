@@ -21,6 +21,9 @@ void main() {
   var j = i++; // j = 1, i++
   // var k = ++i; // k = (++i)
 
+  // --var
+  // var--
+
   print(i);
   print(j);
 }
