@@ -19,7 +19,7 @@ void main() {
   // i++; // i = i + 1;
 
   var j = i++; // j = 1, i++
-  var k = ++i; // k = (++i)
+  // var k = ++i; // k = (++i)
 
   print(i);
   print(j);
